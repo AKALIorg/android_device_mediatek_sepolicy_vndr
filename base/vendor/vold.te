@@ -41,7 +41,7 @@ allow vold protect2_block_device:blk_file getattr;
 allow vold swap_block_device:blk_file getattr;
 
 # trigger udisk uevent
-allow vold sysfs_usb_nonplat:file w_file_perms;
+allow vold sysfs_typec:file w_file_perms;
 
 # MICROTRUST SEPolicy Rule
 # Date : 2016/06/01

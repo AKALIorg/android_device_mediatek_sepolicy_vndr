@@ -238,34 +238,34 @@ genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:main_pmic/mt6397-
 genfscon sysfs /devices/platform/soc/1000d000.pwrap/1000d000.pwrap:main_pmic/mt6397-rtc/rtc                         u:object_r:sysfs_rtc:s0
 genfscon sysfs /devices/platform/10026000.pwrap/10026000.pwrap:mt6359-pmic/mt6359-rtc/rtc                           u:object_r:sysfs_rtc:s0
 genfscon sysfs /devices/platform/10026000.pwrap/10026000.pwrap:mt6359p/mt6359p-rtc/rtc                              u:object_r:sysfs_rtc:s0
-genfscon sysfs /class/typec                                                                                         u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/mt_usb/musb-hdrc/dual_role_usb                                                     u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/mt_usb/musb-hdrc/cmode                                                             u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/mt_usb/musb-hdrc/cmode                                                         u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /module/musb_hdrc/parameters/kernel_init_done                                                        u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /module/musb_hdrc/parameters/musb_force_on                                                           u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/11270000.usb3/musb-hdrc/cmode                                                      u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/usb0/cmode                                                                     u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/mt_usb/musb-hdrc/usb1                                                              u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/mt_usb/musb-hdrc/usb2                                                              u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/mt_usb/musb-hdrc/usb1                                                          u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/mt_usb/musb-hdrc/usb2                                                          u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/usb0/11200000.xhci0/usb1                                                       u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/usb0/11200000.xhci0/usb2                                                       u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/usb0/11200000.xhci0/usb3                                                       u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/11201000.usb0/11200000.xhci0/usb1                                              u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/11201000.usb0/11200000.xhci0/usb2                                              u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/11201000.usb0/11200000.xhci0/usb3                                              u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/usb_xhci/usb1                                                                      u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/usb3_xhci/usb1                                                                     u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/mt_usb/musb-hdrc/udc/musb-hdrc                                                     u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/11201000.mtu3_0/udc/musb-hdrc                                                      u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/11201000.usb3/udc/musb-hdrc                                                        u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/11270000.usb3/musb-hdrc/udc/musb-hdrc                                              u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/soc/11201000.usb0/udc/11201000.usb0                                                u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/usb0/udc/usb0                                                                      u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/usb0/11200000.xhci0/usb1                                                           u:object_r:sysfs_usb_nonplat:s0
-genfscon sysfs /devices/platform/usb0/11200000.xhci0/usb2                                                           u:object_r:sysfs_usb_nonplat:s0
+genfscon sysfs /class/typec                                                                                         u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/mt_usb/musb-hdrc/dual_role_usb                                                     u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/mt_usb/musb-hdrc/cmode                                                             u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/mt_usb/musb-hdrc/cmode                                                         u:object_r:sysfs_typec:s0
+genfscon sysfs /module/musb_hdrc/parameters/kernel_init_done                                                        u:object_r:sysfs_typec:s0
+genfscon sysfs /module/musb_hdrc/parameters/musb_force_on                                                           u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/11270000.usb3/musb-hdrc/cmode                                                      u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/usb0/cmode                                                                     u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/mt_usb/musb-hdrc/usb1                                                              u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/mt_usb/musb-hdrc/usb2                                                              u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/mt_usb/musb-hdrc/usb1                                                          u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/mt_usb/musb-hdrc/usb2                                                          u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/usb0/11200000.xhci0/usb1                                                       u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/usb0/11200000.xhci0/usb2                                                       u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/usb0/11200000.xhci0/usb3                                                       u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/11201000.usb0/11200000.xhci0/usb1                                              u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/11201000.usb0/11200000.xhci0/usb2                                              u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/11201000.usb0/11200000.xhci0/usb3                                              u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/usb_xhci/usb1                                                                      u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/usb3_xhci/usb1                                                                     u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/mt_usb/musb-hdrc/udc/musb-hdrc                                                     u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/11201000.mtu3_0/udc/musb-hdrc                                                      u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/11201000.usb3/udc/musb-hdrc                                                        u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/11270000.usb3/musb-hdrc/udc/musb-hdrc                                              u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/soc/11201000.usb0/udc/11201000.usb0                                                u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/usb0/udc/usb0                                                                      u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/usb0/11200000.xhci0/usb1                                                           u:object_r:sysfs_typec:s0
+genfscon sysfs /devices/platform/usb0/11200000.xhci0/usb2                                                           u:object_r:sysfs_typec:s0
 
 genfscon sysfs /devices/virtual/BOOT/BOOT/boot/boot_mode u:object_r:sysfs_boot_mode:s0
 genfscon sysfs /devices/virtual/BOOT/BOOT/boot/boot_type u:object_r:sysfs_boot_type:s0
@@ -701,7 +701,7 @@ genfscon sysfs /devices/platform/soc/11170000.sdio/mmc_host/mmc1/mmc1:0001/mmc1:
 
 # Date : 2020/09/09
 # Purpose: for otg access
-genfscon sysfs /devices/platform/bus/mt_usb/musb-hdrc/usb1 u:object_r:sysfs_usb_nonplat:s0
+genfscon sysfs /devices/platform/bus/mt_usb/musb-hdrc/usb1 u:object_r:sysfs_typec:s0
 
 # For chager enable fast charging algorithm
 genfscon sysfs /devices/platform/charger/fast_chg_indicator   u:object_r:sysfs_fs_chg_file:s0
@@ -758,7 +758,7 @@ genfscon sysfs /devices/platform/soc/11230000.mmc/mmc_host/mmc0 u:object_r:sysfs
 genfscon sysfs /devices/platform/soc/11240000.mmc/mmc_host/mmc0 u:object_r:sysfs_devices_block:s0
 
 # Purpose: allow otg access
-genfscon sysfs /devices/platform/soc/11201000.usb/11200000.xhci/usb1 u:object_r:sysfs_usb_nonplat:s0
+genfscon sysfs /devices/platform/soc/11201000.usb/11200000.xhci/usb1 u:object_r:sysfs_typec:s0
 
 # Purpose: allow mgq access
 genfscon proc /mgq u:object_r:proc_mgq:s0

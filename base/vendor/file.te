@@ -231,7 +231,6 @@ type sysfs_boot_type, fs_type, sysfs_type;
 # Purpose : for meta to get com port type and uart port info
 type sysfs_comport_type, fs_type, sysfs_type;
 type sysfs_uart_info, fs_type, sysfs_type;
-type sysfs_usb_nonplat, fs_type, sysfs_type;
 
 # Date : WK1820
 # Purpose : for charger to access pump_express
